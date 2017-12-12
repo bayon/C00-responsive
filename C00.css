@@ -1,0 +1,114 @@
+html, body {
+  min-width:260px;
+  min-height:100%;
+  padding:0;
+  margin:0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  margin:16px;
+}
+
+
+.C00{
+  display:inline-block;
+  font-size:20px;
+
+  text-align:left;
+  vertical-align:top;
+  max-width:100%;
+}
+.C00-container{
+  margin:0 auto;
+  max-width:100%;
+  min-width:260px;
+  font:16px;
+}
+.C00-row{
+  text-align:center;
+  font-size:0;
+}
+
+.C00-25{
+    width:25%;
+    min-width:120px;
+    min-width:-webkit-calc(25%);
+    min-width:calc(25%);
+    width:calc((480px - 100%)* 480);
+    width:-webkit-calc((480px - 100%)* 480);
+}
+.C00-333{
+   width:33.3%;
+   min-width:160px;
+   min-width:-webkit-calc(33.3%);
+   min-width:calc(33.3%);
+   width:calc((480px - 100%)* 480);
+   width:-webkit-calc((480px - 100%)* 480);
+}
+.C00-40{
+  width:40%;
+  min-width:120px;
+  min-width:-webkit-calc(40%);
+  min-width:calc(40%);
+  width:calc((480px - 100%)* 480);
+  width:-webkit-calc((480px - 100%)* 480);
+}
+.C00-50{
+  width:50%;
+  min-width:120px;
+  min-width:-webkit-calc(50%);
+  min-width:calc(50%);
+  width:calc((480px - 100%)* 480);
+  width:-webkit-calc((480px - 100%)* 480);
+}
+.C00-60{
+  width:60%;
+  min-width:120px;
+  min-width:-webkit-calc(60%);
+  min-width:calc(60%);
+  width:calc((480px - 100%)* 480);
+  width:-webkit-calc((480px - 100%)* 480);
+}
+
+.C00-100{
+  width:100%;
+  max-width:100%;
+  min-width:-webkit-calc(100%);
+  min-width:calc(100%);
+  width:calc((480px - 100%)* 480);
+  width:-webkit-calc((480px - 100%)* 480);
+
+}
+.C00-centered{
+  margin:0 auto;
+}
+.C00-text-center{
+  text-align:center;
+}
+.C00-text-left{
+  text-align:left;
+}
+.C00-text-right{
+  text-align:right;
+}
+/* C00 - Images  */
+	.C00-img-proportion-1{
+		width:80%;
+		height:60%;
+		margin:10%;
+		background-size:cover;
+	}
+	.C00-h-480px{height:480px;}
+	.C00-bg-img-1{
+		background-image:url('img/bldg-corner.jpeg');
+	}
+	.C00-bg-img-2{
+
+		background-image:url('img/columns.jpeg');
+	}
+	/* end C00 - images */
+
+@media only screen and (max-width:480px) {
+  @-ms-viewport { width:320px; }
+  @viewport { width:320px; }
+}
